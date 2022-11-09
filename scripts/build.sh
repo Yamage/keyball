@@ -44,7 +44,7 @@ main() {
 	mkdir -p $DIST_DIR
 	BUILD_TARGET_TMP=${BUILD_TARGET//\//_}
 	BUILD_TARGET_TMP=${BUILD_TARGET_TMP//:/_}
-	mv ${BUILD_TARGET_TMP}.hex $DIST_DIR
+	mv -f ${BUILD_TARGET_TMP}.hex $DIST_DIR
 
 	echo "MOVE Firmware to Dist: ${DIST_DIR}"
 }
