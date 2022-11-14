@@ -23,7 +23,7 @@ main() {
 	QMK_KEYBOARDS_KEYBALL_DIR="$(cd ${SCRIPT_DIR%/}/../qmk_firmware/keyboards/keyball; pwd)"
 
 	cd $SCRIPT_DIR
-	. ./.env.local
+	. .env.local
 
 
 	DOCKER_CONTAINER_NAME='qmkfm/qmk_cli'

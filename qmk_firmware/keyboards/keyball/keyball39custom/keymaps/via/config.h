@@ -36,6 +36,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define USB_POLLING_INTERVAL_MS 10
 #define TAPPING_TERM 140
 
+#define TAPPING_TERM_PER_KEY
 #define KEYBALL_CPI_DEFAULT 500
 #define KEYBALL_SCROLL_DIV_DEFAULT 6
 #define PERMISSIVE_HOLD
